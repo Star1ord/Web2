@@ -1,0 +1,345 @@
+body{
+    background: url(study.jpg) top; /*background for whole page*/
+    background-size: 100%;
+    font-family:sans-serif;} /*standard font*/
+
+.loginbox {
+    width: 350px;
+    height: 340px;
+    background: transparent;
+    opacity: 0.9;
+    color: white;
+    font-size: 15px;
+    top: 65%;
+    left: 45%;
+    position: absolute;
+    transform: translate(75%, -50%);
+    box-sizing: border-box;
+    border-color: white;}
+
+.loginbox img {
+    width: 100px;
+    height: 100px;
+    border-radius: 75%;
+    position: absolute;
+    top: -75px;
+    left: calc(50% - 50px);}
+
+h3 {
+    color: white;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+p { margin: 0;
+    padding: 10px;
+    font-weight: bold;}
+
+.loginbox  input  {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+   .loginbox input [ type = "text" ], input [ type = "password" ] position: center;
+    border: 2px solid white;
+    background: transparent;
+    height: 40px;
+    color: white;
+    font-size: 16px;}
+
+input[type="submit"] {
+    border: none;
+    height: 40px;
+    background: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;}
+
+input[type="submit"]:hover {
+    background: blueviolet;
+    box-shadow: 0 0 5px blueviolet, 0 0 25px blueviolet, 0 0 50px blueviolet, 0 0 200px blueviolet;}
+
+a {  text-decoration: none;
+    float: right;
+    font-size: 14px;
+    line-height: 20px;
+    color: blue;}
+
+a:hover {color: darkblue;}
+
+hr { width: 95%;
+    margin-left: 15px;
+    color: ghostwhite;}
+
+.Info {
+    width: 350px;
+    height: 340px;
+    background: transparent;
+    color: white;
+    top: 65%;
+    right: 46%;
+    position: absolute;
+    transform: translate(-85%, -70%);
+    box-sizing: border-box;
+    border-color: white;
+    font-size: 18px;
+}
+
+.Info ul { 
+    list-style-type: circle;
+    max-width: 300px;
+}
+
+.Info h1 { 
+    text-align: center;
+}
+
+.loginbox h2 {
+    text-align:center;
+    font-size: 16px;
+    color:white;
+}
+
+.loginbox i { 
+    font-size: 12px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nurito: wght@200;300;400;600;700&display=swap');
+
+:root{
+  --violet: #AF33FF ;
+}
+
+*{
+  font-family: 'Nurito', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+*::selection{
+  background: var(--violet);
+  color: #fff;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+
+section{
+  padding:2rem 9%;
+}
+
+.heading{
+  text-align: center;
+  padding:2.5rem 0
+}
+
+.heading span{
+  font-size: 3.5rem;
+  background:rgba(255, 165, 0,.2);
+  color:var(--orange);
+  border-radius: .5rem;
+  padding:.2rem 1rem;
+}
+
+header{
+
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #333;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+
+header .logo{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header .logo span{
+  color: var(--violet);
+}
+
+header .navbar a{
+  color: #fff;
+  font-size: 2rem;
+  margin: 0.8rem;
+}
+
+header .navbar a:hover{
+  color: var(--violet);
+}
+
+header .icons i{
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+header .icons i:hover{
+  color: var(--violet);
+}
+
+header .search-bar-container{
+  position: absolute;
+  top: 100%; left: 0; right: 0;
+  padding: 1.5rem 2rem;
+  background: #333;
+  border-top: .1rem solid rgba(255, 255, 255, .2);
+  display: flex;
+  align-items: center;
+  z-index: 1001;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+header .search-bar-container.active{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+header .search-bar-container #search-bar{
+  width: 100%;
+  padding: 1rem;
+  text-transform: none;
+  color:#333;
+  font-size: 1.7rem;
+  border-radius: .5rem;
+}
+
+header .search-bar-container label{
+  color: #fff;
+  cursor: pointer;
+  font-size: 3rem;
+  margin-left: 1.5rem;
+}
+
+header .search-bar-container label:hover{
+  color: var(--violet);
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.f_container{
+  max-width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+    padding: 70px 0;
+    clear: both;
+    position: relative;
+    height: 300px;
+    margin-top: 750px;
+
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+    text-align: center;
+  line-height: 50px;
+  border-radius: 60%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a i{
+  margin: 15px;
+}
+
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
